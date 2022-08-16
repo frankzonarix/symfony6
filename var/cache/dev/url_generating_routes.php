@@ -15,6 +15,6 @@ return [
     '_profiler_router' => [['token'], ['_controller' => 'web_profiler.controller.router::panelAction'], [], [['text', '/router'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
     '_profiler_exception' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::body'], [], [['text', '/exception'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::stylesheet'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
-    'app_vinyl_homepage' => [[], ['_controller' => 'App\\Controller\\VinylController::homepage'], [], [['text', '/']], [], [], []],
-    'app_vinyl_browse' => [['genre', 'year'], ['genre' => null, 'year' => null, '_controller' => 'App\\Controller\\VinylController::browse'], [], [['variable', '/', '[^/]++', 'year', true], ['variable', '/', '[^/]++', 'genre', true], ['text', '/browse']], [], [], []],
+    'app_vinyl_vinyl_homepage' => [[], ['_controller' => 'App\\Controller\\VinylController\\VinylController::homepage'], [], [['text', '/']], [], [], []],
+    'app_vinyl_vinyl_browse' => [['genre'], ['genre' => null, '_controller' => 'App\\Controller\\VinylController\\VinylController::browse'], [], [['variable', '/', '[^/]++', 'genre', true], ['text', '/browse']], [], [], []],
 ];

@@ -578,7 +578,6 @@ class ComposerStaticInit7e6fb876972617c88e2a24fc3885d440
     );
 
     public static $classMap = array (
-        'App\\Controller\\VinylController' => __DIR__ . '/../..' . '/src/Controller/VinylController.php',
         'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
         'Collator' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/Resources/stubs/Collator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
