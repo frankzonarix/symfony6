@@ -10,6 +10,7 @@
 
 <div>
     Tracks:
+    {{ dump(tracks) }}
     <ul>
         {% for track in tracks %}
             <li>{{ track.song }} - {{ track.artist|upper }} </li>
