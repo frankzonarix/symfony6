@@ -35,7 +35,7 @@ class VinylController extends AbstractController
             ['artist' => 'Slayer', 'song' => 'South of Heaven'],
             ['artist' => 'Morgana Lefay', 'song' => 'The Boon he gives']
         ];
-        dd($tracks);
+        dump($tracks);
 
         return $this->render(
             'vinyl/homepage.html.twig', [
