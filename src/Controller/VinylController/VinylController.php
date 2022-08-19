@@ -50,18 +50,17 @@ class VinylController extends AbstractController
      *
      * @return Response
      **/
-    #[Route('/browse/{genre}')]
-    public function browse(string $genre = null): Response
+    #[Route('/browse/{slug}')]
+    public function browse(string $slug = null): Response
     {
         // make it look more fancy
         //$title = str_replace('-',' ', $genre);
-        if ($genre) {
-            $title = u(str_replace('-', ' ', $genre))->title(true) . ' ' . $year;
-        } else {
-            $title = 'All Genres';
-        }
 
+        $genre = $slug ? u(str_replace('-', ' ', $slug))->title(true) : null;
 
-        return new Response('Genre: ' . $title);
+        // register genre within twig:
+        return $this->render('vinyl/browse.html.twig', [
+            'genre' => $genre,
+        ]);
     }
 }
