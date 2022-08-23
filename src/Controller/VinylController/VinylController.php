@@ -23,7 +23,7 @@ class VinylController extends AbstractController
      *
      * @return Response
      **/
-    #[Route('/')]
+    #[Route('/', name: 'app_homepage')]
     public function homepage(): Response
     {
 
@@ -50,7 +50,7 @@ class VinylController extends AbstractController
      *
      * @return Response
      **/
-    #[Route('/browse/{slug}')]
+    #[Route('/browse/{slug}', 'app_browse')]
     public function browse(string $slug = null): Response
     {
         // make it look more fancy
