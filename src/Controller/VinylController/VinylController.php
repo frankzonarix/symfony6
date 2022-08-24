@@ -12,7 +12,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use function Symfony\Component\String\U;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Twig\Environment;
+
 
 /**
  * Vinyl Controller
@@ -25,7 +25,7 @@ class VinylController extends AbstractController
      * @return Response
      **/
     #[Route('/', name: 'app_homepage')]
-    public function homepage(Environment $twig): Response
+    public function homepage(): Response
     {
 
         /* Making it multidimensional */
@@ -37,10 +37,7 @@ class VinylController extends AbstractController
             ['artist' => 'Morgana Lefay', 'song' => 'The Boon he gives']
         ];
 
-        $html = $twig->render('vinyl/homepage.html.twig', [
-        //return $this->render( //** This only works within a controller, if you are in a
-            class where you cannot access $this>render you will have to do it through the twig service */
-            'vinyl/homepage.html.twig',
+        return $this->render('vinyl/homepage.html.twig', [
             'title' => 'PB & Jams',
             'tracks' => $tracks,
         ]);
