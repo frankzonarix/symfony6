@@ -8,9 +8,9 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 
 class SongController extends AbstractController {
 //Note argument without '' in curly braces
-    #[Route('/api/songs/{id}')]
+    #[Route('/api/songs/{id<\d+>}', methods: ['GET'])]
     //unlike in the tutorial the typehint has to match JsonResponse instead of Response
-    public function getSong($id): JsonResponse {
+    public function getSong(int $id): JsonResponse {
         //dd($id);
         //Example song data
         // TODO should come from database
