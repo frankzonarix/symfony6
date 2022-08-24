@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac3a3a216a0711d85cc0f7e64097b67a",
+    "content-hash": "8380d37e6048a9595848c71709636d5c",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -23,14 +23,14 @@
             "require": {
                 "doctrine/lexer": "1.*",
                 "ext-tokenizer": "*",
-                "php": "^7.1 || ^8.0",
+                "php": "^7.1 || ^8.1",
                 "psr/cache": "^1 || ^2 || ^3"
             },
             "require-dev": {
                 "doctrine/cache": "^1.11 || ^2.0",
                 "doctrine/coding-standard": "^6.0 || ^8.1",
                 "phpstan/phpstan": "^1.4.10 || ^1.8.0",
-                "phpunit/phpunit": "^7.5 || ^8.0 || ^9.1.5",
+                "phpunit/phpunit": "^7.5 || ^8.1 || ^9.1.5",
                 "symfony/cache": "^4.4 || ^5.2",
                 "vimeo/psalm": "^4.10"
             },
@@ -94,7 +94,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "~7.1 || ^8.0"
+                "php": "~7.1 || ^8.1"
             },
             "conflict": {
                 "doctrine/common": ">2.2,<2.4"
@@ -187,7 +187,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3 || ^8.0"
+                "php": "^7.1.3 || ^8.1"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^9.0",
@@ -257,7 +257,7 @@
             },
             "require": {
                 "doctrine/persistence": "^2.0 || ^3.0",
-                "php": "^7.1 || ^8.0"
+                "php": "^7.1 || ^8.1"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^9.0",
@@ -350,7 +350,7 @@
                 "doctrine/cache": "^1.11|^2.0",
                 "doctrine/deprecations": "^0.5.3|^1",
                 "doctrine/event-manager": "^1.0",
-                "php": "^7.3 || ^8.0",
+                "php": "^7.3 || ^8.1",
                 "psr/cache": "^1|^2|^3",
                 "psr/log": "^1|^2|^3"
             },
@@ -457,7 +457,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1|^8.0"
+                "php": "^7.1|^8.1"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^9",
@@ -505,7 +505,7 @@
                 "doctrine/dbal": "^2.13.1|^3.3.2",
                 "doctrine/persistence": "^2.2|^3",
                 "doctrine/sql-formatter": "^1.0.1",
-                "php": "^7.1 || ^8.0",
+                "php": "^7.1 || ^8.1",
                 "symfony/cache": "^4.3.3|^5.0|^6.0",
                 "symfony/config": "^4.4.3|^5.0|^6.0",
                 "symfony/console": "^3.4.30|^4.3.3|^5.0|^6.0",
@@ -523,7 +523,7 @@
                 "doctrine/coding-standard": "^9.0",
                 "doctrine/orm": "^2.11 || ^3.0",
                 "friendsofphp/proxy-manager-lts": "^1.0",
-                "phpunit/phpunit": "^7.5 || ^8.0 || ^9.3 || ^10.0",
+                "phpunit/phpunit": "^7.5 || ^8.1 || ^9.3 || ^10.0",
                 "psalm/plugin-phpunit": "^0.16.1",
                 "psalm/plugin-symfony": "^3",
                 "psr/log": "^1.1.4|^2.0|^3.0",
@@ -616,18 +616,18 @@
             "require": {
                 "doctrine/doctrine-bundle": "~1.0|~2.0",
                 "doctrine/migrations": "^3.2",
-                "php": "^7.2|^8.0",
+                "php": "^7.2|^8.1",
                 "symfony/framework-bundle": "~3.4|~4.0|~5.0|~6.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^8.0",
+                "doctrine/coding-standard": "^8.1",
                 "doctrine/orm": "^2.6",
                 "doctrine/persistence": "^1.3||^2.0",
                 "phpstan/phpstan": "^0.12",
                 "phpstan/phpstan-deprecation-rules": "^0.12",
                 "phpstan/phpstan-phpunit": "^0.12",
                 "phpstan/phpstan-strict-rules": "^0.12",
-                "phpunit/phpunit": "^8.0|^9.0",
+                "phpunit/phpunit": "^8.1|^9.0",
                 "vimeo/psalm": "^4.11"
             },
             "type": "symfony-bundle",
@@ -699,7 +699,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^7.1 || ^8.1"
             },
             "conflict": {
                 "doctrine/common": "<2.9"
@@ -790,14 +790,14 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0"
+                "php": "^7.2 || ^8.1"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^8.2",
                 "phpstan/phpstan": "^0.12",
                 "phpstan/phpstan-phpunit": "^0.12",
                 "phpstan/phpstan-strict-rules": "^0.12",
-                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
+                "phpunit/phpunit": "^7.0 || ^8.1 || ^9.0",
                 "vimeo/psalm": "^4.10"
             },
             "type": "library",
@@ -881,7 +881,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^7.1 || ^8.1"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^9",
@@ -951,7 +951,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^7.1 || ^8.1"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^9.0",
@@ -1032,7 +1032,7 @@
                 "doctrine/deprecations": "^0.5.3 || ^1",
                 "doctrine/event-manager": "^1.0",
                 "friendsofphp/proxy-manager-lts": "^1.0",
-                "php": "^7.4 || ^8.0",
+                "php": "^7.4 || ^8.1",
                 "psr/log": "^1.1.3 || ^2 || ^3",
                 "symfony/console": "^4.4.16 || ^5.4 || ^6.0",
                 "symfony/stopwatch": "^4.4 || ^5.4 || ^6.0"
@@ -1148,7 +1148,7 @@
                 "doctrine/lexer": "^1.2.3",
                 "doctrine/persistence": "^2.4 || ^3",
                 "ext-ctype": "*",
-                "php": "^7.1 || ^8.0",
+                "php": "^7.1 || ^8.1",
                 "psr/cache": "^1 || ^2 || ^3",
                 "symfony/console": "^3.0 || ^4.0 || ^5.0 || ^6.0",
                 "symfony/polyfill-php72": "^1.23",
@@ -1237,7 +1237,7 @@
             "require": {
                 "doctrine/collections": "^1.0",
                 "doctrine/event-manager": "^1.0",
-                "php": "^7.2 || ^8.0",
+                "php": "^7.2 || ^8.1",
                 "psr/cache": "^1.0 || ^2.0 || ^3.0"
             },
             "conflict": {
@@ -1336,7 +1336,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^7.1 || ^8.1"
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.4"
@@ -1706,7 +1706,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0"
+                "php": "^7.2 || ^8.1"
             },
             "type": "library",
             "extra": {
@@ -1760,7 +1760,7 @@
             },
             "require": {
                 "ext-filter": "*",
-                "php": "^7.2 || ^8.0",
+                "php": "^7.2 || ^8.1",
                 "phpdocumentor/reflection-common": "^2.2",
                 "phpdocumentor/type-resolver": "^1.3",
                 "webmozart/assert": "^1.9.1"
@@ -1816,7 +1816,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0",
+                "php": "^7.2 || ^8.1",
                 "phpdocumentor/reflection-common": "^2.0"
             },
             "require-dev": {
@@ -1866,7 +1866,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0"
+                "php": "^7.2 || ^8.1"
             },
             "require-dev": {
                 "php-parallel-lint/php-parallel-lint": "^1.2",
@@ -2648,84 +2648,6 @@
                 }
             ],
             "time": "2022-07-22T14:17:38+00:00"
-        },
-        {
-            "name": "symfony/debug-bundle",
-            "version": "v6.0.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/debug-bundle.git",
-                "reference": "78426ad77ab9d2429e20354bf7dc56c966205848"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug-bundle/zipball/78426ad77ab9d2429e20354bf7dc56c966205848",
-                "reference": "78426ad77ab9d2429e20354bf7dc56c966205848",
-                "shasum": ""
-            },
-            "require": {
-                "ext-xml": "*",
-                "php": ">=8.0.2",
-                "symfony/http-kernel": "^5.4|^6.0",
-                "symfony/twig-bridge": "^5.4|^6.0",
-                "symfony/var-dumper": "^5.4|^6.0"
-            },
-            "conflict": {
-                "symfony/config": "<5.4",
-                "symfony/dependency-injection": "<5.4"
-            },
-            "require-dev": {
-                "symfony/config": "^5.4|^6.0",
-                "symfony/dependency-injection": "^5.4|^6.0",
-                "symfony/web-profiler-bundle": "^5.4|^6.0"
-            },
-            "suggest": {
-                "symfony/config": "For service container configuration",
-                "symfony/dependency-injection": "For using as a service from the container"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Bundle\\DebugBundle\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Provides a tight integration of the Symfony VarDumper component and the ServerLogCommand from MonologBridge into the Symfony full-stack framework",
-            "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/debug-bundle/tree/v6.0.11"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2022-07-20T13:45:53+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -7285,48 +7207,46 @@
             "time": "2022-01-02T09:55:41+00:00"
         },
         {
-            "name": "symfony/web-profiler-bundle",
-            "version": "v6.0.10",
+            "name": "symfony/webpack-encore-bundle",
+            "version": "v1.15.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/web-profiler-bundle.git",
-                "reference": "1a574f838dd56c5e1bdc37cc52e8798a363c2397"
+                "url": "https://github.com/symfony/webpack-encore-bundle.git",
+                "reference": "718673b1e758533614190ae74d07305a72bc66a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/web-profiler-bundle/zipball/1a574f838dd56c5e1bdc37cc52e8798a363c2397",
-                "reference": "1a574f838dd56c5e1bdc37cc52e8798a363c2397",
+                "url": "https://api.github.com/repos/symfony/webpack-encore-bundle/zipball/718673b1e758533614190ae74d07305a72bc66a9",
+                "reference": "718673b1e758533614190ae74d07305a72bc66a9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.2",
-                "symfony/config": "^5.4|^6.0",
-                "symfony/framework-bundle": "^5.4|^6.0",
-                "symfony/http-kernel": "^5.4|^6.0",
-                "symfony/routing": "^5.4|^6.0",
-                "symfony/twig-bundle": "^5.4|^6.0",
-                "twig/twig": "^2.13|^3.0.4"
-            },
-            "conflict": {
-                "symfony/dependency-injection": "<5.4",
-                "symfony/form": "<5.4",
-                "symfony/mailer": "<5.4",
-                "symfony/messenger": "<5.4"
+                "php": ">=7.1.3",
+                "symfony/asset": "^4.4 || ^5.0 || ^6.0",
+                "symfony/config": "^4.4 || ^5.0 || ^6.0",
+                "symfony/dependency-injection": "^4.4 || ^5.0 || ^6.0",
+                "symfony/deprecation-contracts": "^2.1 || ^3.0",
+                "symfony/http-kernel": "^4.4 || ^5.0 || ^6.0",
+                "symfony/polyfill-php80": "^1.25.0",
+                "symfony/service-contracts": "^1.0 || ^2.0 || ^3.0"
             },
             "require-dev": {
-                "symfony/browser-kit": "^5.4|^6.0",
-                "symfony/console": "^5.4|^6.0",
-                "symfony/css-selector": "^5.4|^6.0",
-                "symfony/stopwatch": "^5.4|^6.0"
+                "symfony/framework-bundle": "^4.4 || ^5.0 || ^6.0",
+                "symfony/phpunit-bridge": "^5.3 || ^6.0",
+                "symfony/twig-bundle": "^4.4 || ^5.0 || ^6.0",
+                "symfony/web-link": "^4.4 || ^5.0 || ^6.0"
             },
             "type": "symfony-bundle",
+            "extra": {
+                "thanks": {
+                    "name": "symfony/webpack-encore",
+                    "url": "https://github.com/symfony/webpack-encore"
+                }
+            },
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Bundle\\WebProfilerBundle\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
+                    "Symfony\\WebpackEncoreBundle\\": "src"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -7334,18 +7254,14 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Provides a development tool that gives detailed information about the execution of any request",
-            "homepage": "https://symfony.com",
+            "description": "Integration with your Symfony app & Webpack Encore!",
             "support": {
-                "source": "https://github.com/symfony/web-profiler-bundle/tree/v6.0.10"
+                "issues": "https://github.com/symfony/webpack-encore-bundle/issues",
+                "source": "https://github.com/symfony/webpack-encore-bundle/tree/v1.15.1"
             },
             "funding": [
                 {
@@ -7361,7 +7277,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-06T19:12:54+00:00"
+            "time": "2022-07-13T17:07:35+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -7608,7 +7524,7 @@
             },
             "require": {
                 "ext-ctype": "*",
-                "php": "^7.2 || ^8.0"
+                "php": "^7.2 || ^8.1"
             },
             "conflict": {
                 "phpstan/phpstan": "<0.12.20",
@@ -7667,7 +7583,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^7.1 || ^8.1"
             },
             "conflict": {
                 "doctrine/collections": "<1.6.8",
@@ -7731,7 +7647,7 @@
             },
             "require-dev": {
                 "ircmaxell/php-yacc": "^0.0.7",
-                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
+                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.1 || ^9.0"
             },
             "bin": [
                 "bin/php-parse"
@@ -7786,7 +7702,7 @@
                 "ext-phar": "*",
                 "ext-xmlwriter": "*",
                 "phar-io/version": "^3.0.1",
-                "php": "^7.2 || ^8.0"
+                "php": "^7.2 || ^8.1"
             },
             "type": "library",
             "extra": {
@@ -7842,7 +7758,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0"
+                "php": "^7.2 || ^8.1"
             },
             "type": "library",
             "autoload": {
@@ -7901,7 +7817,7 @@
             },
             "require-dev": {
                 "phpspec/phpspec": "^6.0 || ^7.0",
-                "phpunit/phpunit": "^8.0 || ^9.0"
+                "phpunit/phpunit": "^8.1 || ^9.0"
             },
             "type": "library",
             "extra": {
@@ -9466,6 +9382,84 @@
             "time": "2022-06-27T17:10:44+00:00"
         },
         {
+            "name": "symfony/debug-bundle",
+            "version": "v6.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/debug-bundle.git",
+                "reference": "78426ad77ab9d2429e20354bf7dc56c966205848"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/debug-bundle/zipball/78426ad77ab9d2429e20354bf7dc56c966205848",
+                "reference": "78426ad77ab9d2429e20354bf7dc56c966205848",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xml": "*",
+                "php": ">=8.0.2",
+                "symfony/http-kernel": "^5.4|^6.0",
+                "symfony/twig-bridge": "^5.4|^6.0",
+                "symfony/var-dumper": "^5.4|^6.0"
+            },
+            "conflict": {
+                "symfony/config": "<5.4",
+                "symfony/dependency-injection": "<5.4"
+            },
+            "require-dev": {
+                "symfony/config": "^5.4|^6.0",
+                "symfony/dependency-injection": "^5.4|^6.0",
+                "symfony/web-profiler-bundle": "^5.4|^6.0"
+            },
+            "suggest": {
+                "symfony/config": "For service container configuration",
+                "symfony/dependency-injection": "For using as a service from the container"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\DebugBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides a tight integration of the Symfony VarDumper component and the ServerLogCommand from MonologBridge into the Symfony full-stack framework",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/debug-bundle/tree/v6.0.11"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-07-20T13:45:53+00:00"
+        },
+        {
             "name": "symfony/dom-crawler",
             "version": "v6.0.11",
             "source": {
@@ -9715,6 +9709,85 @@
             "time": "2022-07-28T13:40:41+00:00"
         },
         {
+            "name": "symfony/web-profiler-bundle",
+            "version": "v6.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/web-profiler-bundle.git",
+                "reference": "1a574f838dd56c5e1bdc37cc52e8798a363c2397"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/web-profiler-bundle/zipball/1a574f838dd56c5e1bdc37cc52e8798a363c2397",
+                "reference": "1a574f838dd56c5e1bdc37cc52e8798a363c2397",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "symfony/config": "^5.4|^6.0",
+                "symfony/framework-bundle": "^5.4|^6.0",
+                "symfony/http-kernel": "^5.4|^6.0",
+                "symfony/routing": "^5.4|^6.0",
+                "symfony/twig-bundle": "^5.4|^6.0",
+                "twig/twig": "^2.13|^3.0.4"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<5.4",
+                "symfony/form": "<5.4",
+                "symfony/mailer": "<5.4",
+                "symfony/messenger": "<5.4"
+            },
+            "require-dev": {
+                "symfony/browser-kit": "^5.4|^6.0",
+                "symfony/console": "^5.4|^6.0",
+                "symfony/css-selector": "^5.4|^6.0",
+                "symfony/stopwatch": "^5.4|^6.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\WebProfilerBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides a development tool that gives detailed information about the execution of any request",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/web-profiler-bundle/tree/v6.0.10"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-06-06T19:12:54+00:00"
+        },
+        {
             "name": "theseer/tokenizer",
             "version": "1.2.1",
             "source": {
@@ -9732,7 +9805,7 @@
                 "ext-dom": "*",
                 "ext-tokenizer": "*",
                 "ext-xmlwriter": "*",
-                "php": "^7.2 || ^8.0"
+                "php": "^7.2 || ^8.1"
             },
             "type": "library",
             "autoload": {
@@ -9771,7 +9844,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.1",
+        "php": ">=8.1",
         "ext-ctype": "*",
         "ext-iconv": "*"
     },
